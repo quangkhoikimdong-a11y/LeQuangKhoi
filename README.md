@@ -85,23 +85,3 @@ A sample of the dataset (stored as `svm_dataset.csv`) includes three features (`
 The SVM model fulfilled its purpose for linearly separable datasets with satisfactory results. The classification boundaries, performance metrics, and insights from visualization align well with theoretical expectations, making it ideal for beginner-level learning projects.
 
 ---
-
-## References
-### Literature and Formulas
-1. **Support Vector Machine Fundamentals**:
-   - The mathematical formulation of SVM is adopted from the principles of maximizing margin width (`2 / ||w||`) via cost optimization and sub-gradient descent.
-
-2. **Performance Metrics**:
-   - **F1 Score**: Defined as the harmonic mean of precision and recall, providing balanced evaluation for binary classification tasks.
-   - **Confusion Matrix**: A fundamental tool for performance assessment, mapping the classification results graphically.
-
-3. **Datasets for Machine Learning**:
-   - The synthetic dataset generated for this report adheres to the structured format of 3D features explicitly designed for linear separation.
-
----
-
-**Images Referenced**:
-- Confusion Matrix Visualization: Confusion matrix depicting classification results.
-- 3D Data Visualization: Mapping of the dataset along three axes.
-
-Both images signify the outcomes of the SVM model and highlight its performance.
