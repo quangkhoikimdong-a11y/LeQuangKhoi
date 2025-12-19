@@ -61,3 +61,47 @@ This linear SVM model with cost optimization achieves clear classification bound
 
 ## Generated Data
 A sample of the dataset (stored as `svm_dataset.csv`) includes three features (`Feature_1`, `Feature_2`, `Feature_3`) and labels (`Label`) to distinguish the two classes (`+1`, `-1`).
+## Performance Notes
+
+### Key Observations:
+1. **Accuracy of Classification**:
+   - The model achieves high accuracy as demonstrated in the **confusion matrix**, with minimal false positives (2) and false negatives (4).
+   - The structured dataset makes it possible to leverage the linear separation to achieve precise predictions.
+
+2. **Evaluation Metrics**:
+   - The **F1 Score** (`0.97`) is an excellent indicator of balanced precision and recall.
+   - Precision (`0.9798`) and recall (`0.9604`) values suggest strong performance in identifying both classes effectively.
+   - **Cross-Validation Scores** (average `0.95`) reflect the stability of the model across multiple splits.
+
+3. **Optimized Hyperplane Parameters**:
+   - The weights (`w`) and bias (`b`) represent the foundation of the hyperplane for decision boundaries.  
+   - Parameters indicate separation of the dataset into two well-defined subspaces.
+
+4. **Visualization Insights**:
+   - The **3D visualization** points to a dataset that is consistently linearly separable.
+   - Though the dataset is artificially generated, the model showcases its capability in handling structured inputs effectively.
+
+### Conclusion:
+The SVM model fulfilled its purpose for linearly separable datasets with satisfactory results. The classification boundaries, performance metrics, and insights from visualization align well with theoretical expectations, making it ideal for beginner-level learning projects.
+
+---
+
+## References
+### Literature and Formulas
+1. **Support Vector Machine Fundamentals**:
+   - The mathematical formulation of SVM is adopted from the principles of maximizing margin width (`2 / ||w||`) via cost optimization and sub-gradient descent.
+
+2. **Performance Metrics**:
+   - **F1 Score**: Defined as the harmonic mean of precision and recall, providing balanced evaluation for binary classification tasks.
+   - **Confusion Matrix**: A fundamental tool for performance assessment, mapping the classification results graphically.
+
+3. **Datasets for Machine Learning**:
+   - The synthetic dataset generated for this report adheres to the structured format of 3D features explicitly designed for linear separation.
+
+---
+
+**Images Referenced**:
+- Confusion Matrix Visualization: Confusion matrix depicting classification results.
+- 3D Data Visualization: Mapping of the dataset along three axes.
+
+Both images signify the outcomes of the SVM model and highlight its performance.
