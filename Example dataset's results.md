@@ -3,7 +3,7 @@
 ## Confusion Matrix
 The confusion matrix displays the performance of our SVM model in predicting the labels for the testing dataset.
 
-![Confusion Matrix](main/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ### Interpretation:
 - **True Positives (97)**: Instances correctly classified as `+1`.
@@ -18,7 +18,7 @@ The low number of false positives and false negatives indicates that the model p
 ## 3D Data Visualization
 The 3D scatter plot illustrates the dataset points and their classification.
 
-![3D Data Visualization](main/data_visualization.png)
+![3D Data Visualization](data_visualization.png)
 
 ### Features:
 - The dataset is linearly separable to a large extent, as seen in the classification visualization.
